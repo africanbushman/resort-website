@@ -1,4 +1,4 @@
-# {Resort website}
+# Resort website
 
 #### A website, 11/10/2017
 
