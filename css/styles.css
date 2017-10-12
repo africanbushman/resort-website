@@ -6,13 +6,14 @@ img{
 title{
   font-style: italic;
   font-size: 100px;
-  color: #32cd32;
+  color: #b1a688;
   align-items: center;
 }
 header{
   list-style-type: none;
   background-color: inherit;
   text-align: center;
+  height: 70px;
 }
 header ul li {
   display: inline-block;
@@ -20,7 +21,7 @@ header ul li {
 }
 header ul li a {
   text-decoration:  none;
-  color:  #b1a688;
+  color:   #b1a688;
   text-align:  left;
   padding: 14px 16px;
   font-family: monospace;
@@ -30,24 +31,39 @@ h1{
   text-align: center;
   font-style: italic;
   font-size: 40px;
-  color: #32cd32;
+  color: #b1a688;
 }
 h2{
   text-align: center;
   text-transform: capitalize;
   font-style: italic;
   font-size: 40px;
-  color: #32cd32;
+  color: #b1a688;
 }
 body{
   text-align: justify;
   font-style: italic;
   font-size: 40px;
-  color: #32cd32;
-  background-image: url(../images.jpg);
+  color: #b1a688;
+  background-image: url(../background.jpg);
 }
 p{
   font-style: italic;
   font-size: 40px;
-  color: #32cd32;
+  color: #b1a688;
+  text-align: center;
+}
+#images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#images ul li {
+  list-style-type: none;
+}
+#images img{
+  height: 250px;
+  width: 33.333333%;
+  margin: 10px;
 }
