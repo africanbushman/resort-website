@@ -1,0 +1,37 @@
+img{
+  display: block;
+  margin: auto;
+  width: auto;
+}
+title{
+  font-style: italic;
+  font-size: 100px;
+  color: #32cd32;
+  align-items: center;
+}
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  color: #32cd32;
+}
+h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 40px;
+  color: #32cd32;
+}
+body{
+  text-align: justify;
+  font-style: italic;
+  font-size: 40px;
+  color: #32cd32;
+  background-image: url(../images.jpg);
+}
+p{
+  font-style: italic;
+  font-size: 40px;
+  color: #32cd32;
+}
